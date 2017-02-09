@@ -6,3 +6,11 @@ h1 {
   text-align: center;
   float: left;
 }
+
+img {
+  float: right;
+}
+
+#featured {
+  float: left;
+}
