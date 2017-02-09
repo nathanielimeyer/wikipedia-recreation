@@ -14,3 +14,13 @@ img {
 #featured {
   float: left;
 }
+
+div#mw-panel {
+  font-size: inherit;
+    position: absolute;
+    top: 160px;
+    padding-top: 1em;
+    width: 10em;
+    left: 0;
+    float: left;
+}
