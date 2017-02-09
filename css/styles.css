@@ -24,3 +24,39 @@ div#mw-panel {
     left: 0;
     float: left;
 }
+
+/* light purple #faf5ff */
+/*medium purple #ddcef2 */
+/*dark purple #afa3bf */
+.panel-purple {
+  border-color: #afa3bf;
+}
+.panel-purple > .panel-heading {
+  color: #000;
+  background-color: #ddcef2;
+  border-color: #afa3bf;
+}
+
+.panel-purple > .panel-body {
+  background-color: #faf5ff;
+}
+
+.panel-success > .panel-body {
+  background-color: #f5fffa;
+}
+
+.panel-info > .panel-body {
+  background-color: #f5faff;
+}
+
+.panel-purple > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #afa3bf;
+  background-color: #faf5ff;
+}
+.panel-purple > .panel-heading .badge {
+  color: #faf5ff;
+  background-color: #000;
+}
+.panel-purple > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #afa3bf;
+}
